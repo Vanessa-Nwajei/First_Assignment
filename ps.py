@@ -12,7 +12,7 @@ a = [4, -6, 7, 8, -9, 100, 12, 13, 56, 17]
 k = 3
 
 smallest_elements = partial_sort(n,a,k)
-print(smallest_elements)
+print(*smallest_elements)
 
 '''
 
@@ -31,4 +31,4 @@ a = [4, -6, 7, 8, -9, 100, 12, 13, 56, 17]
 k = 3
 
 smallest_elements = partial_sort_1(n,a,k)
-print(smallest_elements)
+print(*smallest_elements)
